@@ -1,0 +1,182 @@
+.header__line, 
+.section__service__line,
+.section__schedule__line {
+    padding-top: 10px;
+}
+
+.section__service__title,
+.section__schedule__title,
+.section__scheduled-services__title {
+    color: var(--branco);
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 341px;
+    padding: 10px 0;
+}
+
+.section__service__container,
+.section__schedule__container,
+.section__scheduled-services__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 25px;
+}
+
+.header {
+    padding-top: 11px;
+    position: relative;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 25px;
+    height: 65px;
+}
+
+/*MENU - Início*/
+
+.header__container-menu {
+    width: 45px;
+    height: 32px;
+    background-image: url("../img/menu_close.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.header__container-checkbox:checked ~ .header__container-label > .header__container-menu {
+    background-image: url("../img/menu_open.svg");
+}
+
+.header__container__list-menu {
+    display: none;
+    position: absolute;
+    background-color: var(--branco);
+    border-radius: 5px;
+    top: 50px;
+    width: 60vw;
+    margin-left: 5px;
+}
+
+.header__container-checkbox:checked ~ .header__container__list-menu {
+    display: block;
+}
+
+.header__container__list-menu__item {
+    display: flex;
+    padding: 10px;
+}
+
+.header__container__list-menu__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: var(--preto);
+    align-content: center;
+    margin-left: 10px;
+}
+
+.header__container-checkbox {
+    display: none;
+}
+
+/*MENU - Fim*/
+
+.header__title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.section__schedule__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__schedule__month-year {
+    font-size: 16px;
+    font-weight: 600;
+    width: 293px;
+}
+
+.section__schedule__days-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__schedule__days-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__schedule__days-header-week,
+.section__schedule__days-content-day,
+.section__schedule__days-content-day-mark,
+.section__schedule__days-content-day__mark-additional,
+.section__schedule__days-content-day-opaque {
+    width: 44px;
+    height: 30px;
+    text-align: center;
+    padding-top: 16px;
+    border: 2px solid var(--preto);
+}
+
+.section__schedule__days-content-day__mark-additional {
+    border-top: 2px solid var(--amarelo);
+    border-left: 2px solid var(--amarelo);
+}
+
+.section__schedule__days-content-day-mark {
+    background-color: var(--amarelo);
+    color: var(--preto);
+}
+
+.section__schedule__days-content-day-opaque {
+    color: var(--cinza);
+}
+
+.section__scheduled-services__container-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--branco);
+    width: 341px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.section__scheduled-services__date-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--amarelo);
+    color: var(--preto);
+    font-size: 13px;
+    width: 50px;
+    height: 41px;
+    padding: 2px 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.section__scheduled-services__line {
+    padding: 2px 2px 4px 2px;
+}
+
+.section__scheduled-services__service {
+    color: var(--preto);
+    text-transform: uppercase;
+    width: 65%;
+    font-size: 14px;
+    font-weight: 600;
+}

@@ -1,0 +1,18 @@
+@import url("css/index.css");
+@import url("css/home.css");
+
+:root {
+    --cor-de-fundo: #000000;
+    --amarelo: #FFF515;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --cinza-input: #9F9E94;
+    --cinza: #9F9E94;
+    --fonte-principal: "Lato";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--amarelo);
+    font-family: var(--fonte-principal);
+}
