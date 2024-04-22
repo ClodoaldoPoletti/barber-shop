@@ -118,7 +118,15 @@ body {
 .section__schedule__month-year {
     font-size: 16px;
     font-weight: 600;
-    width: 293px;
+    width: 290px;
+}
+
+.section__schedule__month-year__back {
+    margin-right: 5px;
+}
+
+.section__schedule__month-year__next {
+    margin-left: 5px;
 }
 
 .section__schedule__days-header {
