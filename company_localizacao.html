@@ -48,40 +48,21 @@
             </div>
         </header>
         
-        <!-- Serviços -->
-        <section class="section__service">
-            <div class="section__service__container">
-                <p class="section__service__title">serviços</p>
-                <a href="servico_corte_de_cabelo.html"><img src="img/figure_corte_de_cabelo.svg" alt="Corte de cabelo"></a>
-                <a href="servico_corte_de_barba.html"><img src="img/figure_corte_de_barba.svg" alt="Corte de barba"></a>
-                <a href="servico_tratamento_capilar.html"><img src="img/figure_tratamento_capilar.svg" alt="Tratamento capilar"></a>
-                <a href="servico_coloracao.html"><img src="img/figure_coloracao.svg" alt="Coloração"></a>
-                <img class="section__service__line" src="img/line.svg" alt="">
+        <!-- Serviços cabeçalho -->
+        <section class="section__default">
+            <div class="section__default__container">
+                <p class="section__default__title">localização</p>
+                <a href="home.html"><img src="img/icon_home.svg" alt="Home"></a>
             </div>
         </section>
         
-        <!-- Agenda -->
-        <section class="section__schedule">
-            <div class="section__schedule__container">
-                <p class="section__schedule__title">agenda</p>
-                <div class="section__schedule__header">
-                    <p class="section__schedule__month-year" id="mes_ano"></p>
-                    <a class="section__schedule__month-year__back" href="#" onclick="direcao('voltar')"><img src="img/arrow_left.svg" alt="Voltar"></a>
-                    <a class="section__schedule__month-year__next" href="#" onclick="direcao('avancar')"><img src="img/arrow_right.svg" alt="Avançar"></a>
-                </div class="section__schedule__days">
-                    <ul class="section__schedule__days-header">
-                        <li class="section__schedule__days-header-week">D</li>
-                        <li class="section__schedule__days-header-week">S</li>
-                        <li class="section__schedule__days-header-week">T</li>
-                        <li class="section__schedule__days-header-week">Q</li>
-                        <li class="section__schedule__days-header-week">Q</li>
-                        <li class="section__schedule__days-header-week">S</li>
-                        <li class="section__schedule__days-header-week">S</li>
-                    </ul>
-                    <!-- No atributo "for", colocar sempre a data do servidor no formato "AAAA-MM-DD"-->
-                    <ul for="2024-04-24" class="section__schedule__days-content" id="days">
-
-                    </ul>
+        <!-- Descrição do serviço -->
+        <section class="section__body">
+            <div class="section__body__container">
+                <div class="section__body__location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.516997646838!2d-46.66045222544116!3d-23.585784607756747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce596942c1df0b%3A0xc715fbb0a1ea2faa!2sParque%20Ibirapuera%20-%20Port%C3%B5es%201%20e%202!5e0!3m2!1spt-BR!2sbr!4v1713864582164!5m2!1spt-BR!2sbr" width="341" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <p class="section__body__location-description">Parque Ibirapuera - Portões 1 e 2 <br /> Vila Mariana, São Paulo - SP, 04094-050</p>
                 <img class="section__schedule__line" src="img/line.svg" alt="">
             </div>            
         </section>
@@ -126,8 +107,6 @@
             </div>
 
         </section>
-    
-        <script src="js/calendario.js"></script>
     </body>
 
 </html>

@@ -1,0 +1,115 @@
+.section__default {
+    width: 390px;
+}
+
+.section__default__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.section__default__title {
+    color: var(--branco);
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 240px;
+    font-weight: 600;
+}
+
+.section__body__container {
+    width: 341px;
+    height: 504px;
+    color: var(--branco);
+}
+
+.section__body__service-description {
+    margin-top: 10px;
+    height: 310px;
+}
+
+.section__body__service-price {
+    height: 180px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+}
+
+.section__body__company-description {
+    margin-top: 10px;
+    height: 490px;
+}
+
+.section__body__location {
+    margin-top: 10px;
+}
+
+.section__body__location-description {
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
+    height: 158px;
+}
+
+.section__body__contact__container {
+    width: 341px;
+    height: 484px;
+    color: var(--branco);
+}
+
+.section__body__contact {
+    margin-top: 30px;
+}
+
+.section__body__contact__input {
+    height: 35px;
+    width: 326px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.section__body__contact__input::-webkit-input-placeholder,
+.section__body__contact__textarea::-webkit-input-placeholder{
+    color: var(--cinza-input);
+    text-transform: uppercase;
+    font-size:11px;    
+}
+
+.section__body__contact__textarea {
+    width: 326px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: var(--fonte-principal);
+}
+
+.section__body__contact__button {
+    height: 35px;
+    width: 341px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: var(--amarelo);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section__body__contact-phones__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 159px;
+}
+
+.section__body__contact-phones__list-item {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.section__body__contact-phones__list-item p {
+    margin-left: 10px;
+}

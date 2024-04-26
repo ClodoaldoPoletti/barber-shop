@@ -1,5 +1,7 @@
 @import url("css/index.css");
-@import url("css/home.css");
+@import url("css/general.css");
+@import url("css/services_company.css");
+@import url("css/user.css");
 
 :root {
     --cor-de-fundo: #000000;

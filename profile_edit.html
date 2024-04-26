@@ -43,45 +43,38 @@
                 </ul>
 
                 <h1 class="header__title"><a href="home.html">clube da barba</a></h1>
-                <a href="profile.html"><img src="img/user.svg" alt="Meu perfil"></a>
+                <a href="profile.html"><img src="img/user_open.svg" alt="Meu perfil"></a>
                 <img class="header__line" src="img/line.svg" alt="">
             </div>
         </header>
         
-        <!-- Serviços -->
-        <section class="section__service">
-            <div class="section__service__container">
-                <p class="section__service__title">serviços</p>
-                <a href="servico_corte_de_cabelo.html"><img src="img/figure_corte_de_cabelo.svg" alt="Corte de cabelo"></a>
-                <a href="servico_corte_de_barba.html"><img src="img/figure_corte_de_barba.svg" alt="Corte de barba"></a>
-                <a href="servico_tratamento_capilar.html"><img src="img/figure_tratamento_capilar.svg" alt="Tratamento capilar"></a>
-                <a href="servico_coloracao.html"><img src="img/figure_coloracao.svg" alt="Coloração"></a>
-                <img class="section__service__line" src="img/line.svg" alt="">
+        <!-- Serviços cabeçalho -->
+        <section class="section__user">
+            <div class="section__user__container">
+                <ul class="section__user__menu">
+                    <li class="section__user__menu__link">perfil</li>
+                    <li><img src="img/line_vertical.svg" alt=""></li>
+                    <li class="section__user__menu__link"><a href="#">histórico</a></li>
+                </ul>
             </div>
+            <img src="img/line.svg" alt="">
+            <ul class="section__user__icon">
+                <li><a href="profile.html"><img src="img/icon_back.svg" alt="Voltar"></a></li>
+            </ul>
+            
         </section>
         
-        <!-- Agenda -->
-        <section class="section__schedule">
-            <div class="section__schedule__container">
-                <p class="section__schedule__title">agenda</p>
-                <div class="section__schedule__header">
-                    <p class="section__schedule__month-year" id="mes_ano"></p>
-                    <a class="section__schedule__month-year__back" href="#" onclick="direcao('voltar')"><img src="img/arrow_left.svg" alt="Voltar"></a>
-                    <a class="section__schedule__month-year__next" href="#" onclick="direcao('avancar')"><img src="img/arrow_right.svg" alt="Avançar"></a>
-                </div class="section__schedule__days">
-                    <ul class="section__schedule__days-header">
-                        <li class="section__schedule__days-header-week">D</li>
-                        <li class="section__schedule__days-header-week">S</li>
-                        <li class="section__schedule__days-header-week">T</li>
-                        <li class="section__schedule__days-header-week">Q</li>
-                        <li class="section__schedule__days-header-week">Q</li>
-                        <li class="section__schedule__days-header-week">S</li>
-                        <li class="section__schedule__days-header-week">S</li>
-                    </ul>
-                    <!-- No atributo "for", colocar sempre a data do servidor no formato "AAAA-MM-DD"-->
-                    <ul for="2024-04-24" class="section__schedule__days-content" id="days">
-
-                    </ul>
+        <!-- Descrição do serviço -->
+        <section class="section__body">
+            <div class="section__body__user__edit__container">
+                <div class="section__body__edit">
+                    <p class="section__body__edit-title">editar perfil</p>
+                    <p class="section__body__edit-label">nome</p>
+                    <input class="section__body__edit__input" type="text" placeholder="nome" value="teobaldo cruz">
+                    <p class="section__body__edit-label">senha</p>
+                    <input class="section__body__edit__input" type="password" placeholder="senha" value="***************">
+                    <a href="profile_edit_success.html"><button class="section__body__edit__button">salvar</button></a>
+                </div>
                 <img class="section__schedule__line" src="img/line.svg" alt="">
             </div>            
         </section>
@@ -126,8 +119,6 @@
             </div>
 
         </section>
-    
-        <script src="js/calendario.js"></script>
     </body>
 
 </html>

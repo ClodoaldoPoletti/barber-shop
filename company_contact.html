@@ -48,40 +48,32 @@
             </div>
         </header>
         
-        <!-- Serviços -->
-        <section class="section__service">
-            <div class="section__service__container">
-                <p class="section__service__title">serviços</p>
-                <a href="servico_corte_de_cabelo.html"><img src="img/figure_corte_de_cabelo.svg" alt="Corte de cabelo"></a>
-                <a href="servico_corte_de_barba.html"><img src="img/figure_corte_de_barba.svg" alt="Corte de barba"></a>
-                <a href="servico_tratamento_capilar.html"><img src="img/figure_tratamento_capilar.svg" alt="Tratamento capilar"></a>
-                <a href="servico_coloracao.html"><img src="img/figure_coloracao.svg" alt="Coloração"></a>
-                <img class="section__service__line" src="img/line.svg" alt="">
+        <!-- Serviços cabeçalho -->
+        <section class="section__default">
+            <div class="section__default__container">
+                <p class="section__default__title">contato</p>
+                <a href="home.html"><img src="img/icon_home.svg" alt="Home"></a>
             </div>
         </section>
         
-        <!-- Agenda -->
-        <section class="section__schedule">
-            <div class="section__schedule__container">
-                <p class="section__schedule__title">agenda</p>
-                <div class="section__schedule__header">
-                    <p class="section__schedule__month-year" id="mes_ano"></p>
-                    <a class="section__schedule__month-year__back" href="#" onclick="direcao('voltar')"><img src="img/arrow_left.svg" alt="Voltar"></a>
-                    <a class="section__schedule__month-year__next" href="#" onclick="direcao('avancar')"><img src="img/arrow_right.svg" alt="Avançar"></a>
-                </div class="section__schedule__days">
-                    <ul class="section__schedule__days-header">
-                        <li class="section__schedule__days-header-week">D</li>
-                        <li class="section__schedule__days-header-week">S</li>
-                        <li class="section__schedule__days-header-week">T</li>
-                        <li class="section__schedule__days-header-week">Q</li>
-                        <li class="section__schedule__days-header-week">Q</li>
-                        <li class="section__schedule__days-header-week">S</li>
-                        <li class="section__schedule__days-header-week">S</li>
-                    </ul>
-                    <!-- No atributo "for", colocar sempre a data do servidor no formato "AAAA-MM-DD"-->
-                    <ul for="2024-04-24" class="section__schedule__days-content" id="days">
-
-                    </ul>
+        <!-- Descrição do serviço -->
+        <section class="section__body">
+            <div class="section__body__contact__container">
+                <div class="section__body__contact">
+                    <input class="section__body__contact__input" type="text" placeholder="titulo">
+                    <textarea class="section__body__contact__textarea" name="textarea" cols="30" rows="10" placeholder="mensagem"></textarea>
+                    <a href="home.html"><button class="section__body__contact__button">enviar</button></a>
+                </div>
+                <ul class="section__body__contact-phones__list">
+                    <li class="section__body__contact-phones__list-item">
+                        <img src="img/icon_phone.svg" alt="Telefone">
+                        <p>(11) 1234-5678</p>
+                    </li>
+                    <li class="section__body__contact-phones__list-item">
+                        <img src="img/icon_whatsapp.svg" alt="WhatsApp">
+                        <p>(11) 92345-6789</p>
+                    </li>
+                </ul>
                 <img class="section__schedule__line" src="img/line.svg" alt="">
             </div>            
         </section>
@@ -126,8 +118,6 @@
             </div>
 
         </section>
-    
-        <script src="js/calendario.js"></script>
     </body>
 
 </html>
